@@ -539,7 +539,9 @@ body.home .entry-header {
 	-moz-box-shadow:none;
 	-webkit-box-shadow:none;
 	box-shadow:none;
-	-moz-border-radius: none; 
+	-moz-border-radius: 8px 8px 8px 8px; 
+	border-radius: 8px;  
+
 }
 .main-navigation ul ul ul {
 	right: 100%;
@@ -885,4 +887,10 @@ h2.site-description {
 	/*-webkit-border-radius: 60em;
 	-moz-border-radius: 60em;
 	border-radius: 60em;*/
+}
+
+.site-info {
+	margin-right: 5px;
+	margin-top: 5px;
+	float: right;
 }

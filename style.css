@@ -888,3 +888,9 @@ h2.site-description {
 	-moz-border-radius: 60em;
 	border-radius: 60em;*/
 }
+
+.site-info {
+	margin-right: 5px;
+	margin-top: 5px;
+	float: right;
+}
