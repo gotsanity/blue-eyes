@@ -374,16 +374,16 @@ a:active {
 	width: 75%;
 }
 
+
 #main {
-	width: 75%;
 	margin-top: 50px;
 	float: right;
+	width: 75%;
 }
 
 .home #main {
-	width: 100%
-	clear: both;
-	margin-top: 0px;
+	float: left;
+	width: 100%;
 }
 
 #content {
