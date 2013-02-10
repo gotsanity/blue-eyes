@@ -369,17 +369,16 @@ a:active {
 }
 
 #primary {
-	float: right;
+	float: left;
 	margin: 0 0 0 0;
-	width: 100%;
+	width: 75%;
 }
-#content {
-	margin: 0 0 0 30%;
-	margin-right: 0px;
+
+
+#main {
 	margin-top: 50px;
-	color: #fff;
-	padding: 10px;
-	padding-top: 5px;
+	float: right;
+	width: 70%;
 	background-color: #444;
 	-moz-box-shadow:1px 1px 1px #666;
 	-webkit-box-shadow:1px 1px 1px #666;
@@ -387,9 +386,37 @@ a:active {
 	-moz-border-radius: 10px 10px 10px 10px; 
 	border-top-left-radius: 10px;  
 	border-bottom-left-radius: 10px;  
+	padding: 10px;
+	padding-top: 5px;
+}
+
+.home #main {
+	float: left;
+	width: 100%;
+	background: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	-moz-border-radius: none; 
+	border-radius: none;  
+	padding: 0;
+}
+
+#content {
+	margin: 0 0 0 0;
+	color: #fff;
 	font-family: arial;
 	text-align: left;
 	overflow: auto;
+}
+
+#secondary { /* Sidebar 1 */
+	overflow: hidden;
+	border-left: 2px solid #555;
+}
+
+#secondary .widget {
+	padding: 0 10px 0 10px;
 }
 
 .page-header, #nav-above {
@@ -443,20 +470,10 @@ body.home .entry-header {
 	visibility: hidden;
 }
 
-#secondary { /* Sidebar 1 */
-	clear: both;
-	float: right;
-}
-
-#secondary .widget {
-	display: inline;
-	float: left;
-	padding: 0 10px 0 10px;
-}
-
 #tertiary { /* Sidebar 2 */
 	clear: right;
 }
+
 .site-footer {
 	clear: both;
 	width: 100%;
