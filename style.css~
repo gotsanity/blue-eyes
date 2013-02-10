@@ -399,6 +399,7 @@ a:active {
 	box-shadow: none;
 	-moz-border-radius: none; 
 	border-radius: none;  
+	padding: 0;
 }
 
 #content {
@@ -411,7 +412,7 @@ a:active {
 
 #secondary { /* Sidebar 1 */
 	overflow: hidden;
-	border-left: 1px solid #555;
+	border-left: 2px solid #555;
 }
 
 #secondary .widget {
