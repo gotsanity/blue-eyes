@@ -378,19 +378,7 @@ a:active {
 #main {
 	margin-top: 50px;
 	float: right;
-	width: 75%;
-}
-
-.home #main {
-	float: left;
-	width: 100%;
-}
-
-#content {
-	margin: 0 0 0 0;
-	color: #fff;
-	padding: 10px;
-	padding-top: 5px;
+	width: 70%;
 	background-color: #444;
 	-moz-box-shadow:1px 1px 1px #666;
 	-webkit-box-shadow:1px 1px 1px #666;
@@ -398,6 +386,25 @@ a:active {
 	-moz-border-radius: 10px 10px 10px 10px; 
 	border-top-left-radius: 10px;  
 	border-bottom-left-radius: 10px;  
+	padding: 10px;
+	padding-top: 5px;
+}
+
+.home #main {
+	float: left;
+	width: 100%;
+	background: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	-moz-border-radius: none; 
+	border-radius: none;  
+	padding: 0;
+}
+
+#content {
+	margin: 0 0 0 0;
+	color: #fff;
 	font-family: arial;
 	text-align: left;
 	overflow: auto;
@@ -405,6 +412,7 @@ a:active {
 
 #secondary { /* Sidebar 1 */
 	overflow: hidden;
+	border-left: 1px solid #555;
 }
 
 #secondary .widget {
