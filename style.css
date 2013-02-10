@@ -369,14 +369,25 @@ a:active {
 }
 
 #primary {
-	float: right;
+	float: left;
 	margin: 0 0 0 0;
-	width: 100%;
+	width: 75%;
 }
-#content {
-	margin: 0 0 0 30%;
-	margin-right: 0px;
+
+#main {
+	width: 75%;
 	margin-top: 50px;
+	float: right;
+}
+
+.home #main {
+	width: 100%
+	clear: both;
+	margin-top: 0px;
+}
+
+#content {
+	margin: 0 0 0 0;
 	color: #fff;
 	padding: 10px;
 	padding-top: 5px;
@@ -390,6 +401,14 @@ a:active {
 	font-family: arial;
 	text-align: left;
 	overflow: auto;
+}
+
+#secondary { /* Sidebar 1 */
+	overflow: hidden;
+}
+
+#secondary .widget {
+	padding: 0 10px 0 10px;
 }
 
 .page-header, #nav-above {
@@ -443,20 +462,10 @@ body.home .entry-header {
 	visibility: hidden;
 }
 
-#secondary { /* Sidebar 1 */
-	clear: both;
-	float: right;
-}
-
-#secondary .widget {
-	display: inline;
-	float: left;
-	padding: 0 10px 0 10px;
-}
-
 #tertiary { /* Sidebar 2 */
 	clear: right;
 }
+
 .site-footer {
 	clear: both;
 	width: 100%;
