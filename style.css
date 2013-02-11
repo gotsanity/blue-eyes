@@ -330,6 +330,37 @@ textarea {
 	width: 98%;
 }
 
+/****** Basic Styles ******/
+
+blockquote {
+	padding-top: 20px;
+	overflow: hidden; /* clearfix alternative */
+	font-size: 18px;
+	line-height: 150%;
+	color: #999;
+	font-style: italic;
+}
+blockquote:before {
+	display: block;
+	float: left;
+	margin: 10px 15px 0 0;
+	font-size: 50px; /* let's make it a big quote! */
+	content: open-quote; /* here we define our :before as a smart quote. It could be any content, even the HTML entity alternative to this opening quote, that is “ */
+	color: #bababa;
+	text-shadow: 0 1px 1px #909090;
+}
+blockquote:after {
+	content: none;
+	/* could be content:close-quote; but lets keep it clean*/
+}
+
+cite {
+	float: right;
+	font-size: 12px;
+	margin-right: 50px;
+	margin-top: -35px;
+}
+
 /* Links */
 a {
 	color: #2183c4;
