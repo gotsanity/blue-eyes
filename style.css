@@ -385,6 +385,10 @@ cite {
 	font-size: 1em;
 }
 
+.entry-content ul, ol {
+	margin-right: 100px;
+}
+
 
 /* Links */
 a {
