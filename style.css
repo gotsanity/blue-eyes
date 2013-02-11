@@ -464,6 +464,7 @@ a:active {
 	float: left;
 	width: 100%;
 	background: none;
+	border: none;
 	-moz-box-shadow: none;
 	-webkit-box-shadow: none;
 	box-shadow: none;
