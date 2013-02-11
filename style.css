@@ -389,6 +389,10 @@ textarea {
 	margin-right: 100px;
 }
 
+.home .entry-content ul, ol {
+	margin-right: 0;
+}
+
 .entry-meta, .entry-content h1, h2, h3, h4, h5, h6 {
 	color: #bbb;
 }
@@ -495,9 +499,13 @@ a:active {
 	font-size: 2.0em;
 	text-align: right;
 	line-height: 0.8em;
-	margin: 10px 10px -25px 5px;
 	float: right;
 	width: 50%;
+	margin: 10px 10px 0px 5px;
+}
+
+.single .entry-title, .category .entry-title, .archive .entry-title {
+	margin: 10px 10px -25px 5px;
 }
 
 .entry-title:hover {
@@ -584,7 +592,6 @@ body.home .entry-header {
 	-moz-border-radius: 0px 8px 8px 0px; 
 	border-bottom-right-radius: 8px;  
 	border-bottom-left-radius: 8px; 
-/*	font-family: 'BleedingCowboysRegular';*/
 	margin-right: 5px;
 }
 .main-navigation a {
@@ -817,7 +824,62 @@ object {
 ----------------------------------------------- */
 
 .widget {
-	/* margin: 0 0 1.5em; */
+	margin: 0; 
+}
+
+.widget ul, .widget ol {
+	list-style: none;
+	margin: 0;
+	font-size: 12px;
+}
+
+.widget li {
+	padding-right: 5px;
+	float: right!important;
+	display: block;
+	text-align: right;
+	width: 100%;
+}
+
+.widget ul ul {
+	margin-right: 20px;
+	margin-left: 10px;
+}
+
+
+.widget-title {
+	text-align: left;
+	border-bottom: 1px solid #555;
+	font-family: 'BleedingCowboysRegular';
+	
+}
+
+.widget li:hover {
+	background-color: #2183c4;
+	-moz-box-shadow:1px 1px 5px #000;
+	-webkit-box-shadow:1px 1px 5px #000;
+	box-shadow:1px 1px 5px #000;
+	-moz-border-radius: 8px 8px 8px 8px; 
+	border-radius: 8px; 
+	color: #fff;
+}
+
+.widget li:hover a {
+	color: #fff;
+}
+
+.widget li.current_page_item, .widget li.current-menu-item {
+	background-color: #2183c4;
+	-moz-box-shadow:1px 1px 5px #000;
+	-webkit-box-shadow:1px 1px 5px #000;
+	box-shadow:1px 1px 5px #000;
+	-moz-border-radius: 8px 8px 8px 8px; 
+	border-radius: 8px; 
+	color: #fff;
+}
+
+.widget li.current_page_item a, .widget li.current-menu-item a {
+	color: #fff;
 }
 
 /* Make sure select elements fit in widgets */
