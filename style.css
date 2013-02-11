@@ -332,6 +332,23 @@ textarea {
 
 /****** Basic Styles ******/
 
+pre {
+	padding-top: 20px;
+	overflow: hidden; /* clearfix alternative */
+	font-size: 18px;
+	line-height: 150%;
+	color: #000;
+	background-color: #aaa;
+	font-style: italic;
+	-moz-box-shadow:1px 1px 5px #000;
+	-webkit-box-shadow:1px 1px 5px #000;
+	box-shadow:1px 1px 5px #000;
+	-moz-border-radius: 8px 8px 8px 8px; 
+	border-radius: 8px;  
+	border-radius: 8px; 
+	text-shadow: none;
+	line-height: 16px;
+}
 .entry-content blockquote {
 	padding-top: 20px;
 	overflow: hidden; /* clearfix alternative */
@@ -354,7 +371,7 @@ textarea {
 	/* could be content:close-quote; but lets keep it clean*/
 }
 
-.entry-content cite {
+.entry-content blockquote cite {
 	float: right;
 	font-size: 12px;
 	margin-right: 50px;
@@ -818,10 +835,109 @@ object {
 /* =Comments
 ----------------------------------------------- */
 
+ol.commentlist {
+	list-style: none;
+	margin-left: 0;
+}
+
+.comments-title {
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+.commentlist li {
+	border: 2px solid #000;
+	margin-bottom: 5px;
+	padding: 10px;
+	-moz-box-shadow:1px 1px 5px #000;
+	-webkit-box-shadow:1px 1px 5px #000;
+	box-shadow:1px 1px 5px #000;
+	-moz-border-radius: 8px 8px 8px 8px; 
+	border-radius: 8px;  
+}
+
+.comment-author img {
+	float: right;
+	margin: 10px;
+}
+
 .comment-content a {
 	word-wrap: break-word;
 }
+
+.comment-content address {
+	margin-left: 10px;
+	color: #aaa;
+}
+
+.comment-content ins {
+	color: #000;
+}
+
 .bypostauthor {
+}
+
+
+.comment blockquote {
+	padding-top: 20px;
+	overflow: hidden; /* clearfix alternative */
+	font-size: 18px;
+	line-height: 150%;
+	color: #ccc;
+	font-style: italic;
+}
+.comment blockquote:before {
+	display: block;
+	float: left;
+	margin: 10px 15px 0 0;
+	font-size: 50px; /* let's make it a big quote! */
+	content: open-quote; /* here we define our :before as a smart quote. It could be any content, even the HTML entity alternative to this opening quote, that is “ */
+	color: #bababa;
+	text-shadow: 0 1px 1px #909090;
+}
+.comment blockquote:after {
+	content: none;
+	/* could be content:close-quote; but lets keep it clean*/
+}
+
+.comment blockquote cite {
+	float: right;
+	font-size: 12px;
+	margin-right: 50px;
+	margin-top: -25px;
+}
+
+.comment h1 {
+	font-size: 2em;
+	color: #bbb;
+}
+
+.comment h2 {
+	font-size: 1.8em;
+}
+
+.comment h3 {
+	font-size: 1.6em;
+}
+
+.comment h4 {
+	font-size: 1.4em;
+}
+
+.comment h5 {
+	font-size: 1.2em;
+}
+
+.comment h6 {
+	font-size: 1em;
+}
+
+.comment ul, ol {
+	margin-right: 100px;
+}
+
+.home .comment ul, ol {
+	margin-right: 0;
 }
 
 /* =Widgets
