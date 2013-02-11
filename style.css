@@ -892,6 +892,14 @@ object {
 	display: none;
 }
 
+.widget button,.widget input, .widget select, .widget textarea {
+	color: #000;
+	font-family: sans-serif;
+	font-size: 16px;
+	font-size: 1.6rem;
+	line-height: 1.5;
+}
+
 /* =Infinite Scroll
 ----------------------------------------------- */
 
