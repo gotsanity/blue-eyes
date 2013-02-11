@@ -332,7 +332,7 @@ textarea {
 
 /****** Basic Styles ******/
 
-blockquote {
+.entry-content blockquote {
 	padding-top: 20px;
 	overflow: hidden; /* clearfix alternative */
 	font-size: 18px;
@@ -340,7 +340,7 @@ blockquote {
 	color: #999;
 	font-style: italic;
 }
-blockquote:before {
+.entry-content blockquote:before {
 	display: block;
 	float: left;
 	margin: 10px 15px 0 0;
@@ -349,12 +349,12 @@ blockquote:before {
 	color: #bababa;
 	text-shadow: 0 1px 1px #909090;
 }
-blockquote:after {
+.entry-content blockquote:after {
 	content: none;
 	/* could be content:close-quote; but lets keep it clean*/
 }
 
-cite {
+.entry-content cite {
 	float: right;
 	font-size: 12px;
 	margin-right: 50px;
