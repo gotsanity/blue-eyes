@@ -429,10 +429,11 @@ a:active {
 	color: #2183c4;
 	font-family: 'BleedingCowboysRegular';
 	font-size: 2.0em;
-	margin-right: 1em;
-	margin-top: 0.4em;
 	text-align: right;
 	line-height: 0.8em;
+	margin: 10px 10px -25px 5px;
+	float: right;
+	width: 50%;
 }
 
 .entry-title:hover {
@@ -522,7 +523,7 @@ body.home .entry-header {
 /*	font-family: 'BleedingCowboysRegular';*/
 	margin-right: 5px;
 }
-.main-navigation a, .li {
+.main-navigation a {
 	display: block;
 	text-decoration: none;
 	color: #fff;
