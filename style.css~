@@ -409,11 +409,11 @@ a:active {
 	text-align: left;
 	overflow: auto;
 	padding-right: 5px;
-	border-right: 2px solid #555;
 }
 
 #secondary { /* Sidebar 1 */
 	overflow: hidden;
+	border-left: 2px solid #555;
 }
 
 #secondary .widget {
@@ -522,12 +522,12 @@ body.home .entry-header {
 /*	font-family: 'BleedingCowboysRegular';*/
 	margin-right: 5px;
 }
-.main-navigation a {
+.main-navigation a, .li {
 	display: block;
 	text-decoration: none;
 	color: #fff;
-	padding-left: 20px;
-	padding-right: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
 	font-size: 1em;
 	padding-bottom: 20px;
 }
@@ -541,7 +541,7 @@ body.home .entry-header {
 	-webkit-box-shadow:none;
 	box-shadow:none;
 	-moz-border-radius: none; 
-	padding: 0;
+	padding: 10px 0 0 0;
 	margin: 0;
 	background: #444;
 	-moz-box-shadow:1px 1px 5px #000;
@@ -552,6 +552,8 @@ body.home .entry-header {
 }
 
 .main-navigation ul ul li {
+    width: 100%;
+	line-height: 16px;
 	border: none;
 	margin-right: 0px;
 	-moz-box-shadow:none;
@@ -559,8 +561,12 @@ body.home .entry-header {
 	box-shadow:none;
 	-moz-border-radius: 8px 8px 8px 8px; 
 	border-radius: 8px;  
-
 }
+
+.main-navigation ul ul li {
+	margin-bottom: 5px;
+}
+
 .main-navigation ul ul ul {
 	right: 100%;
 	top: 0%;
