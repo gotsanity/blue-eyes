@@ -361,6 +361,31 @@ cite {
 	margin-top: -35px;
 }
 
+.entry-content h1 {
+	font-size: 2em;
+}
+
+.entry-content h2 {
+	font-size: 1.8em;
+}
+
+.entry-content h3 {
+	font-size: 1.6em;
+}
+
+.entry-content h4 {
+	font-size: 1.4em;
+}
+
+.entry-content h5 {
+	font-size: 1.2em;
+}
+
+.entry-content h6 {
+	font-size: 1em;
+}
+
+
 /* Links */
 a {
 	color: #2183c4;
