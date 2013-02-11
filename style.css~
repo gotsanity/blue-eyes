@@ -447,7 +447,8 @@ a:active {
 	margin-top: 50px;
 	float: right;
 	width: 70%;
-	background-color: #444;
+	background-color: #333;
+	background-image: url("images/texture.png");
 	-moz-box-shadow:1px 1px 1px #666;
 	-webkit-box-shadow:1px 1px 1px #666;
 	box-shadow:1px 1px 1px #666;
@@ -893,7 +894,7 @@ object {
 }
 
 .widget button,.widget input, .widget select, .widget textarea {
-	color: #fff;
+	color: #000;
 	font-family: sans-serif;
 	font-size: 16px;
 	font-size: 1.6rem;
