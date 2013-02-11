@@ -408,11 +408,12 @@ a:active {
 	font-family: arial;
 	text-align: left;
 	overflow: auto;
+	padding-right: 5px;
+	border-right: 2px solid #555;
 }
 
 #secondary { /* Sidebar 1 */
 	overflow: hidden;
-	border-left: 2px solid #555;
 }
 
 #secondary .widget {
