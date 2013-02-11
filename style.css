@@ -358,7 +358,7 @@ cite {
 	float: right;
 	font-size: 12px;
 	margin-right: 50px;
-	margin-top: -35px;
+	margin-top: -25px;
 }
 
 .entry-content h1 {
@@ -387,6 +387,10 @@ cite {
 
 .entry-content ul, ol {
 	margin-right: 100px;
+}
+
+.entry-meta, .entry-content h1, h2, h3, h4, h5, h6 {
+	color: #bbb;
 }
 
 
