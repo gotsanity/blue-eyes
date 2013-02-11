@@ -347,7 +347,7 @@ pre {
 	border-radius: 8px;  
 	border-radius: 8px; 
 	text-shadow: none;
-	line-height: 10px;
+	line-height: 14px;
 }
 .entry-content blockquote {
 	padding-top: 20px;
@@ -872,6 +872,17 @@ ol.commentlist {
 
 .comment-content ins {
 	color: #000;
+}
+
+.comment-content ol li, .comment-content ul li {
+	border: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	-moz-border-radius: none; 
+	border-radius: none;
+	padding: 0;
+	margin: 0;
 }
 
 .bypostauthor {
