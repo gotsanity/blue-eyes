@@ -350,12 +350,19 @@ pre {
 	line-height: 14px;
 }
 .entry-content blockquote {
-	padding-top: 20px;
+	margin: 20px 0 20px 0;
 	overflow: hidden; /* clearfix alternative */
 	font-size: 18px;
 	line-height: 150%;
-	color: #999;
+	color: #fff;
 	font-style: italic;
+	background: #555;
+	padding: 20px 20px 0 20px;
+	-moz-box-shadow:1px 1px 5px #000;
+	-webkit-box-shadow:1px 1px 5px #000;
+	box-shadow:1px 1px 5px #000;
+	-moz-border-radius: 8px 8px 8px 8px; 
+	border-radius: 8px;
 }
 .entry-content blockquote:before {
 	display: block;
@@ -891,25 +898,28 @@ ol.commentlist {
 
 
 .comment blockquote {
-	padding-top: 20px;
+	margin: 20px 0 20px 0;
 	overflow: hidden; /* clearfix alternative */
 	font-size: 18px;
 	line-height: 150%;
-	color: #ccc;
+	color: #fff;
 	font-style: italic;
-}
+	background: #555;
+	padding: 20px;
+	-moz-box-shadow:1px 1px 5px #000;
+	-webkit-box-shadow:1px 1px 5px #000;
+	box-shadow:1px 1px 5px #000;
+	-moz-border-radius: 8px 8px 8px 8px; 
+	border-radius: 8px;
+} 
 .comment blockquote:before {
 	display: block;
 	float: left;
-	margin: 10px 15px 0 0;
+	margin: 0px 15px 0 0;
 	font-size: 50px; /* let's make it a big quote! */
 	content: open-quote; /* here we define our :before as a smart quote. It could be any content, even the HTML entity alternative to this opening quote, that is “ */
 	color: #bababa;
 	text-shadow: 0 1px 1px #909090;
-}
-.comment blockquote:after {
-	content: none;
-	/* could be content:close-quote; but lets keep it clean*/
 }
 
 .comment blockquote cite {
