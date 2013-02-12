@@ -1029,7 +1029,7 @@ ol.commentlist {
 	color: #fff; */
 }
 
-.widget li.current_page_item > a, .widget li.current-menu-item > a {
+.widget li.current_page_item > a, .widget li.current-menu-item > a, .widget li.current-cat > a  {
 	color: #fff;;
 }
 
@@ -1038,6 +1038,9 @@ ol.commentlist {
 	max-width: 100%;
 }
 
+.widget_rss li:hover > a {
+	color: #000;
+}
 /* Search widget */
 #searchsubmit {
 	display: none;

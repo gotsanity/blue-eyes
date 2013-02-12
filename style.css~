@@ -1025,11 +1025,11 @@ ol.commentlist {
 	-webkit-box-shadow:1px 1px 5px #000;
 	box-shadow:1px 1px 5px #000;
 	-moz-border-radius: 8px 8px 8px 8px; 
-	border-radius: 8px; */
-	color: #fff;
+	border-radius: 8px; 
+	color: #fff; */
 }
 
-.widget li.current_page_item > a, .widget li.current-menu-item > a {
+.widget li.current_page_item > a, .widget li.current-menu-item > a, .widget li.current-cat > a  {
 	color: #fff;;
 }
 
@@ -1038,6 +1038,9 @@ ol.commentlist {
 	max-width: 100%;
 }
 
+.widget_rss li:hover > a {
+	color: #aaa;
+}
 /* Search widget */
 #searchsubmit {
 	display: none;
